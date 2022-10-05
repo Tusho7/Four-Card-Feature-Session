@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    background-color:#FAFAFA;
+    overflow-x: hidden;
+}
+
+.header-texts{
+    margin-top: 85px;
+    margin-left: 39px;
+
+}
+
+.header-title{
+    width: 88%;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.166667px;
+    color: #4D4F62;
+}
+
+.header-title-second{
+    width: 88%;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.166667px;
+    color: #4D4F62;
+}
+
+.header-article{
+    width: 93%;
+    margin-top: 13px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.104167px;
+    color: #4D4F62;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+/* Second Section */
+
+.second-section{
+    width: 100%;
+    margin-top: 76px;
+    margin-bottom: 78px;
+}
+
+.box{
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 311px;
+    height: 222px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px;
+}
+
+.box-img{
+    width: 57px;
+    height: 57px;
+    margin-top: 33px;
+    margin-left: 226px;
+}
+
+/* Supervisior Box */
+
+.supervisior-box-line{
+    border: none;
+    width: 100%;
+    height: 3.55px;
+    background-color:#44D3D2;
+}
+
+.supervisior-title{
+    width: 35%;
+    margin-left: 29px;
+    margin-top: 23.45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+}
+
+.box-article{
+    width: 80%;
+    margin-left: 29px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.0902778px;
+    color: #4D4F62;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+/* Team Builder Box */
+
+.team-builder-line{
+    border: none;
+    width: 100%;
+    height: 3.55px;
+    background-color:#EA5454;
+}
+
+.team-builder-title{
+    width: 43%;
+    margin-left: 29px;
+    margin-top: 23.45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+}
+
+
+/* Karma Box */
+.karma-line{
+    border: none;
+    width: 100%;
+    height: 3.55px;
+    background-color: #FCAE4A;
+}
+
+.karma-title{
+    width: 23%;
+    margin-left: 29px;
+    margin-top: 23.45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+}
+
+/* Calculator Box */
+.calculator-line{
+    border: none;
+    width: 100%;
+    height: 3.55px;
+    background-color: #549EF2;
+}
+
+.calculator-title{
+    width: 35%;
+    margin-left: 29px;
+    margin-top: 23.45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+}
+
+@media (min-width: 1440px){
+    .header-texts{
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+    .header-title{
+        width: 31%;
+        margin: auto;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 275;
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+        color: #4D4F62;
+    }
+    .header-title-second{
+        width: 30%;
+        margin: auto;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;
+        text-align: center;
+        letter-spacing: 0.25px;
+        color: #4D4F62;
+    }
+    .header-article{
+        width: 38%;
+        margin: auto;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.104167px;
+        color: #4D4F62;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+
+    /* Second Section */
+
+    .second-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+        margin-top: 64px;
+    }
+    .box{
+        width: 350px;
+        height: 250px;
+    }
+    .box-article{
+        width: 82%;
+        height: 18%;
+    }
+    .box-img{
+        width: 64px;
+        height: 64px;
+        margin-top: 40px;
+        margin-left: 254px;
+    }
+    .supervisior-box, .calculator-box{
+        margin-top: 134px;
+    }
+}
